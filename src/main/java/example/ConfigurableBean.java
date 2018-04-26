@@ -5,5 +5,8 @@ import org.springframework.beans.factory.annotation.Configurable;
 
 @Configurable
 public class ConfigurableBean {
-    @Autowired public ServiceBean serviceBean;
+
+    @Autowired
+    public ServiceBean serviceBean;
+
 }
